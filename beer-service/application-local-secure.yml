@@ -1,12 +1,12 @@
 spring:
   datasource:
     username: beer_service
-    password: {cipher}2fbfed70c8b10507516202f36dfb5a81e4e8a17dfa926c249ee9bf023a6d3e4b
+    password: {cipher}6b21abb234fc813b7d64fff2ce47a14a137fbaa27405fc976ee2671c2d12aeb5
     url: jdbc:mysql://127.0.0.1:3306/beerservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
   # defaults for this docker image - vromero/activemq-artemis
   artemis:
     user: artemis
-    password: {cipher}738f2b76d460340c0c74f06242dbe4292893abb76914d5a4aa4052bdc3427e14
+    password: {cipher}5bedca3fc618a613ed837517a6de30294730830bf92e32d92a927750239d1330
 
 #logging:
 #  level:
